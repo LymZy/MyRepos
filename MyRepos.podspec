@@ -12,8 +12,16 @@ Pod::Spec.new do |s|
   s.frameworks   = "UIKit", "Foundation" #支持的框架
   #s.dependency "MBProgressHUD" # 依赖库
   #s.dependencies = "Masonry"
+  s.dependency 'SSZipArchive','~>1.8.1'
+  s.dependency 'EMVendors','~>0.2.0'
+  s.dependency 'CocoaLumberjack'
+  s.dependency 'Bugtags'
+  s.dependency 'AFNetworking'
+  s.dependency 'YYModel', '~> 1.0.4'
   # User
   s.author             = { "Lym" => "377342167@qq.com" } # 作者信息
   s.social_media_url   = "https://github.com/LymZy/MyRepos" # 个人主页
+
+  
 
 end
